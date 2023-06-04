@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3
+    , "name": "Page title changer"
+    , "version": "0.1"
+    , "author": {
+        "email": "abaqueiro@gmail.com"
+    }
+    , "icons": {
+        "16": "img/tabTitle-16.png"
+        , "48": "img/tabTitle-48.png"
+        , "128": "img/tabTitle-128.png"
+    }
+}
