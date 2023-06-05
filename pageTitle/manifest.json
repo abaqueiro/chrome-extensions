@@ -1,13 +1,27 @@
 {
-    "manifest_version": 3
-    , "name": "Page title changer"
-    , "version": "0.1"
-    , "author": {
-        "email": "abaqueiro@gmail.com"
-    }
-    , "icons": {
-        "16": "img/tabTitle-16.png"
-        , "48": "img/tabTitle-48.png"
-        , "128": "img/tabTitle-128.png"
-    }
+	"manifest_version": 3
+	, "name": "Page title changer"
+	, "description": "Allows to change page title, which implicates tab title, this can be helpfull to visually locate the browser window in tho OS application panel."
+	, "version": "0.1"
+	, "author": {
+		"email": "abaqueiro@gmail.com"
+	}
+	, "icons": {
+		"16": "img/tabTitle-16.png"
+		, "48": "img/tabTitle-48.png"
+		, "128": "img/tabTitle-128.png"
+	}
+	, "content_scripts": [
+		{
+			"matches": ["https://*/*"]
+			, "css": ["css/dom-injection.css"]
+			, "js": ["js/dom-injection.js"]
+		}
+	]
+	, "web_accessible_resources": [
+		{
+			"matches": ["https://*/*"]
+			, "resources": ["img/tabTitle-16.png"]
+		}
+	]
 }
