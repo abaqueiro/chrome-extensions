@@ -1,0 +1,19 @@
+{
+	"manifest_version": 3
+	, "name": "Window Fill Screen"
+	, "description": "Set window size to fill screen"
+	, "version": "0.1"
+	, "author": {
+		"email": "abaqueiro@gmail.com"
+	}
+	, "content_scripts": [
+		{
+			"matches": ["https://*/*"]
+			, "js": ["js/content.js"]
+		}
+	]
+	, "background": {
+		"service_worker": "js/background.js"
+		, "type": "module"
+	}
+}
