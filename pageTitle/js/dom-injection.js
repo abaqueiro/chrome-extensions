@@ -29,10 +29,6 @@ divWindow.style.display='none'
 		btnClose.innerHTML = 'x'
 	var winBody = c('div',divWindow)
 	winBody.className = 'winBody'
-		var txtPageTitle = c('input',winBody)
-		txtPageTitle.className='txtPageTitle'
-		txtPageTitle.placeholder='type new page title'
-		c('br',winBody)
 		var chkSentry = c('input',winBody)
 		chkSentry.type = 'checkbox'
 		var lblSentry = c('span',winBody)
@@ -41,6 +37,10 @@ divWindow.style.display='none'
 		var hintA = c('span',lblSentry)
 		hintA.className = 'tip-text'
 		hintA.innerHTML = 'useful when pages keep changing the title'
+		c('br',winBody)
+		var txtPageTitle = c('input',winBody)
+		txtPageTitle.className='txtPageTitle'
+		txtPageTitle.placeholder='type new page title'
 
 btnToggle.onclick = function(){
 	btnToggle.style.display = 'none'
