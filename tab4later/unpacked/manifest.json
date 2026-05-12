@@ -1,0 +1,18 @@
+{
+	"manifest_version": 3
+	, "name": "Tab 4 Later"
+	, "description": "Save the current tab for later, recovering focus and freeing resources"
+	, "version": "0.1"
+	, "author": {
+		"email": "abaqueiro@gmail.com"
+	}
+	, "action": {
+		"default_title": "Save the current tab for later"
+		, "default_icon": {
+			"16": "img/icon-16.png"
+			, "32": "img/icon-32.png"
+			, "48": "img/icon-48.png"
+			, "128": "img/icon-128.png"
+		}
+	}
+}
