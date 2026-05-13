@@ -14,5 +14,6 @@
 			, "48": "img/icon-48.png"
 			, "128": "img/icon-128.png"
 		}
+		, "default_popup": "popup.html"
 	}
 }
