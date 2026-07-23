@@ -15,5 +15,25 @@
 			"matches": ["https://chatgpt.com/*"]
 			, "css": ["css/chatgpt.css"]
 		}
+		,{
+			"matches": ["https://copilot.microsoft.com/*"]
+			, "css": ["css/copilot-ms.css"]
+		}
+		,{
+			"matches": ["https://claude.ai/*"]
+			, "css": ["css/claude-ai.css"]
+		}
+		,{
+			"matches": ["https://gemini.google.com/*"]
+			, "css": ["css/gemini.css"]
+		}
+		,{
+			"matches": ["https://grok.com/*"]
+			, "css": ["css/grok.css"]
+		}
+		,{
+			"matches": ["https://perplexity.ai/*", "https://www.perplexity.ai/*"]
+			, "css": ["css/perplexity.css"]
+		}
 	]
 }

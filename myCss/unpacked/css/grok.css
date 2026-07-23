@@ -1,0 +1,5 @@
+[data-testid="user-message"]{
+	background: red !important;
+	color: white !important;
+	font-weight: bold !important;
+}
