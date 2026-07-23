@@ -1,0 +1,19 @@
+{
+	"manifest_version": 3
+	, "name": "myCss"
+	, "description": "Change page css"
+	, "version": "0.1"
+	, "author": {
+		"email": "abaqueiro@gmail.com"
+	}
+	, "content_scripts": [
+		{
+			"matches": ["https://chat.deepseek.com/*"]
+			, "css": ["css/deepseek.css"]
+		}
+		,{
+			"matches": ["https://chatgpt.com/*"]
+			, "css": ["css/chatgpt.css"]
+		}
+	]
+}
